@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1 {
+    font-size: 35pt;
+    display: inline;
+    background-color: hsl(50, 100%, 70%);
+    border-radius: 10px;
+    color: green;
+    padding: 5px;
+    border: 5px dotted red
+}
+
+h2 {
+    font-size: 35pt;
+    display: inline;
+    background-color: hsl(50, 100%, 70%);
+    border-radius: 10px;
+    color: green;
+    padding: 5px;
+    border: 5px dotted red
+}
+
+section {
+    display: inline;
+}
+
+section p {
+    font-size: 20pt;
+    text-align: center;
+    background-color: hsl(41, 97%, 46%);
+    color: rgb(78, 16, 224);
+    max-width: 300px;
+    /* Ancho máximo de 300 píxeles */
+    max-height: 200px;
+    /* Alto máximo de 200 píxeles */
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 5px inset red;
+    border-radius: 10px;
+    position: relative;
+    /*left: 480px;
+    bottom: 50px;
+    top: 10px;*/
+    padding: 5px;
+    overflow: auto;
+
+}
+
+.descripcion {
+    text-align: center;
+    margin: 0 auto;
+    /* Esto centra el elemento horizontalmente */
+}
+
+body {
+    background-image: url("../img/Hamburguesas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', 'cursive';
+    text-align: center;
+}
+
+nav {
+    font-size: 20pt;
+    display: inline;
+    background-color: hsl(0, 100%, 70%);
+
+}
+
+nav a {
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    background-color: hsl(165, 98%, 48%);
+    color: blue;
+    /* Hereda el color del texto del elemento nav */
+    padding: 5px 10px;
+    /* Espaciado alrededor de los enlaces */
+    border-radius: 10px;
+    border: 5px solid black;
+    position: relative;
+    top: -50px;
+    right: 10px;
+}
